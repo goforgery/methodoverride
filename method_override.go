@@ -2,7 +2,7 @@ package methodoverride
 
 import (
 	"github.com/goforgery/forgery2"
-	"github.com/goforgery/forgery2/httputils"
+	"github.com/goforgery/httphelp"
 	"strings"
 )
 
