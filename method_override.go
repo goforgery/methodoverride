@@ -23,7 +23,7 @@ func supportsMethod(method string) bool {
 //
 // Example:
 //
-// 	stackr.CreateServer().Use(stackr.MethodOverride())
+// 	f.CreateServer().Use(methodoverride.Create())
 func Create() func(*f.Request, *f.Response, func()) {
 	return func(req *f.Request, res *f.Response, next func()) {
 		// If there's a Method override header.
