@@ -8,7 +8,7 @@ Method override service for [Forgery2](https://github.com/goforgery/forgery2).
 
 Changes the HTTP request method to that set by the header `X-HTTP-Method-Override`.
 
-```javascipt
+```javascript
 package main
 
 import (
