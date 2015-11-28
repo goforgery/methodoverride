@@ -6,7 +6,22 @@ Method override service for [Forgery2](https://github.com/goforgery/forgery2).
 
 ## Use
 
-    methodoverride.Create()
+Changes the HTTP request method to that set by the header `X-HTTP-Method-Override`.
+
+```javascipt
+package main
+
+import (
+	"github.com/goforgery/forgery2"
+	"github.com/goforgery/methodoverride"
+)
+
+func main() {
+	app := f.CreateApp()
+	app.Use(methodoverride.Create())
+	app.Listen(3000)
+}
+```
 
 ## Test
 
