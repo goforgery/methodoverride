@@ -4,6 +4,10 @@
 
 Method override service for [Forgery2](https://github.com/goforgery/forgery2).
 
+## Install
+
+	go get github.com/goforgery/methodoverride
+
 ## Use
 
 Changes the HTTP request method to that set by the header `X-HTTP-Method-Override`.
